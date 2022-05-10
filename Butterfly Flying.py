@@ -1,8 +1,3 @@
-"""
-LESSON: 5.2 - Spritesheet Animation
-TECHNIQUE 2: Smooth Movement
-PRACTICE 2
-"""
 import pygame
 import tsk
 pygame.init()
@@ -27,7 +22,3 @@ while drawing:
 
     c.tick(30)
     pygame.display.flip()
-    
-
-
-# Turn in your Coding Exercise.
