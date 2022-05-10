@@ -1,8 +1,3 @@
-"""
-LESSON: 5.2 - Spritesheet Animation
-TECHNIQUE 4: Changing Frame Rates
-DEMO 1
-"""
 import pygame
 import tsk
 pygame.init()
@@ -18,7 +13,6 @@ timer = 0
 speed_time = 1000
 ship.image_animation_rate = 0
 
-
 drawing = True
 while drawing:
     for event in pygame.event.get():
@@ -29,7 +23,6 @@ while drawing:
     if timer > speed_time:
         ship.image_animation_rate += 2
         timer = 0
-
 
     background.draw()
     ship.draw()
