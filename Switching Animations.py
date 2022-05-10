@@ -1,8 +1,3 @@
-"""
-LESSON: 5.2 - Spritesheet Animation
-TECHNIQUE 3: Switching Animations
-DEMO 1
-"""
 import pygame
 import tsk
 pygame.init()
@@ -37,5 +32,4 @@ while drawing:
     puffin.update(c.get_time())
 
     pygame.display.flip()
-    c.tick(30)
-    
+    c.tick(30)    
