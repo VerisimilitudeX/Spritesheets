@@ -1,8 +1,3 @@
-"""
-LESSON: 5.2 - Spritesheets
-WARMUP 4
-"""
-
 import pygame
 import tsk
 pygame.init()
@@ -26,7 +21,6 @@ while drawing:
         if event.type == pygame.MOUSEBUTTONDOWN:
             print("Switching")
 
-            # Switch between the image sheets
             if hedgehog.image == run:
                 hedgehog.image = sleep
             elif hedgehog.image == sleep:
