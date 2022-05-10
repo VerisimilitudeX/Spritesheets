@@ -14,12 +14,9 @@ while drawing:
         if event.type == pygame.QUIT:
             drawing = False
 
-    # Make the hedgehog follow the mouse
     x, y = pygame.mouse.get_pos()
     hedgehog.center = (x, y)
 
-
-    # Draw the background and hedgehog
     background.draw()
     hedgehog.draw()
 
