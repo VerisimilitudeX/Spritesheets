@@ -1,8 +1,3 @@
-"""
-LESSON: 5.2 - Spritesheet Animation
-TECHNIQUE 4: Changing Frame Rates
-PRACTICE 1
-"""
 import pygame
 import tsk
 pygame.init()
