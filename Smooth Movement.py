@@ -1,8 +1,3 @@
-"""
-LESSON: 5.2 - Spritesheet Animation
-TECHNIQUE 2: Smooth Movement
-DEMO 1
-"""
 import pygame
 import tsk
 pygame.init()
