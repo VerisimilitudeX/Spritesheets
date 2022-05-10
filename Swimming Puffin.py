@@ -1,7 +1,3 @@
-"""
-LESSON: 5.2 - Sprite Sheet Animation
-WARMUP 2
-"""
 import pygame
 import tsk
 pygame.init()
@@ -11,7 +7,6 @@ c = pygame.time.Clock()
 
 background = tsk.Sprite("LakeSideView.jpg", 0, 0)
 
-# Declare the image sheet and sprite here
 puffin_sheet = tsk.ImageSheet("PuffinSwim.png", 5, 6)
 puffin = tsk. Sprite(puffin_sheet, 500, 400)
 
@@ -24,7 +19,6 @@ while drawing:
 
     background.draw()
 
-    # Update and draw the sprite here
     puffin.update(c.get_time())
     puffin.draw()
 
